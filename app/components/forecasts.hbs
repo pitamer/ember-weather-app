@@ -1,0 +1,18 @@
+<div class="forecasts">
+  <div class="search-field-container">
+    <label>
+      <span>Where would you like to search?</span>
+      <Input @value={{this.inputQuery}} class="light" />
+    </label>
+
+    <button type="button" class="button" {{on "click" this.search}}>
+      Search
+    </button>
+  </div>
+
+  <ul class="results">
+    {{#each @forecasts as |forecast|}}
+      <li><Forecast @forecast={{forecast}} /></li>
+    {{/each}}
+  </ul>
+</div>

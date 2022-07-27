@@ -1,0 +1,170 @@
+{
+  "Headline": {
+    "EffectiveDate": "2022-07-26T07:00:00+03:00",
+    "EffectiveEpochDate": 1658808000,
+    "Severity": 4,
+    "Text": "Danger of dehydration and heat stroke if outside for extended periods of time Tuesday",
+    "Category": "heat",
+    "EndDate": "2022-07-26T19:00:00+03:00",
+    "EndEpochDate": 1658851200,
+    "MobileLink": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?lang=en-us",
+    "Link": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2022-07-26T07:00:00+03:00",
+      "EpochDate": 1658808000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 85,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 113,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 1,
+        "IconPhrase": "Sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=1&lang=en-us"
+    },
+    {
+      "Date": "2022-07-27T07:00:00+03:00",
+      "EpochDate": 1658894400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 86,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 115,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 1,
+        "IconPhrase": "Sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 33,
+        "IconPhrase": "Clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=2&lang=en-us"
+    },
+    {
+      "Date": "2022-07-28T07:00:00+03:00",
+      "EpochDate": 1658980800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 86,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 115,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Mostly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 35,
+        "IconPhrase": "Partly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=3&lang=en-us"
+    },
+    {
+      "Date": "2022-07-29T07:00:00+03:00",
+      "EpochDate": 1659067200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 86,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 114,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Mostly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=4&lang=en-us"
+    },
+    {
+      "Date": "2022-07-30T07:00:00+03:00",
+      "EpochDate": 1659153600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 87,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 115,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 2,
+        "IconPhrase": "Mostly sunny",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 34,
+        "IconPhrase": "Mostly clear",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/iq/nahiyat-ash-shinafiyah/206870/daily-weather-forecast/206870?day=5&lang=en-us"
+    }
+  ]
+}

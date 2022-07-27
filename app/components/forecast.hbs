@@ -1,0 +1,37 @@
+<article class="forecast">
+
+  <div class="detail">
+    <h2>
+      {{@forecast.weekDayShort}}
+    </h2>
+    <h4>
+      {{@forecast.dateShort}}
+    </h4>
+  </div>
+
+  <div class="detail temperature high">
+    <div>Max.</div>
+    <h2>
+      {{@forecast.Temperature.Maximum.Value}} °F
+    </h2>
+  </div>
+
+  <div class="detail temperature low">
+    <div>Min.</div>
+    <h2>
+      {{@forecast.Temperature.Minimum.Value}} °F
+    </h2>
+  </div>
+
+  <div class="detail times-of-day">
+    <div class="time-of-day day">
+      <img src={{@forecast.images.day}} />
+      <span>{{@forecast.Day.IconPhrase}}</span>
+    </div>
+    <div class="time-of-day night">
+      <img src={{@forecast.images.night}} />
+      <span>{{@forecast.Night.IconPhrase}}</span>
+    </div>
+  </div>
+
+</article>
