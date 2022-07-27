@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+
+:root {
+  --blue: #016aba;
+  --white: #f9f9f9;
+  --black1: #333;
+  --black2: #181b1c;
+}
+
+/**
+ * Base Elements
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--white);
+}
+
+h1 {
+  font-family: 'Ubuntu Condensed', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: var(--black2);
+}
+
+button {
+  font-size: 100%;
+  cursor: pointer;
+}
+
+/**
+ * Button
+ */
+
+.button {
+  padding: 8px 30px;
+  text-decoration: none;
+  color: #fff;
+  background: var(--blue);
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  display: inline-block;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.button:active {
+  opacity: 0.8;
+  box-shadow: #000 0 0 5px;
+}
+
+/**
+ * Body Container
+ */
+
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  background: #333;
+  margin: 0 auto;
+}
+
+/**
+ * Top Navigation
+ */
+
+.menu {
+  height: 4em;
+  background-color: var(--blue);
+}
+
+.menu h1 {
+  position: relative;
+  padding: 5px 0 0 8px;
+  color: var(--white);
+  font-size: 1.8em;
+  font-style: italic;
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.forecasts .search-field-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 30px auto 60px;
+}
+
+.forecasts .search-field-container button {
+  width: 325px;
+}
+
+.forecasts label span {
+  font-size: 130%;
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+.forecasts input {
+  padding: 11px;
+  font-size: 18px;
+  width: 300px;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: solid 1px lightgray;
+  display: block;
+}
+
+.results li {
+  list-style: none;
+  padding: 0 10px;
+}
+
+/**
+ * Content Area
+ */
+
+.body {
+  padding: 15px;
+}
+
+/**
+ * Individual Forecasts
+ */
+
+.forecast {
+  margin-top: 15px;
+  background-color: var(--black2);
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.forecast:hover {
+  background-color: var(--black1);
+  box-shadow: var(--white) 0 0 2px;
+}
+
+.forecast .detail {
+  flex-grow: 1;
+  font-weight: 300;
+  flex-wrap: wrap;
+  min-width: 75px;
+
+  margin: 0 15px;
+  justify-content: space-around;
+  align-content: space-around;
+  text-align: center;
+}
+
+.forecast .times-of-day .time-of-day {
+  min-width: 150px;
+  display: flex;
+  place-items: center;
+  justify-content: space-evenly;
+}
+
+.forecast .times-of-day .time-of-day img {
+  margin: -10px;
+  align-self: flex-start;
+}
+
+.forecast .times-of-day .time-of-day span {
+  min-width: 80px;
+  margin-inline-start: 10px;
+  text-align: left;
+  font-size: 80%;
+}
