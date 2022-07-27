@@ -30,3 +30,7 @@
 
 # broccoli-debug
 /DEBUG/
+
+# OS and IDE stuff
+.idea
+.DS_Store
