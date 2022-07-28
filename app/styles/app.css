@@ -3,14 +3,14 @@
 
 :root {
   --blue: #016aba;
-  --white: #f9f9f9;
-  --black1: #333;
-  --black2: #181b1c;
+  --white: #fff;
+  --white-smoke: #f9f9f9;
+  --grey: #333;
+  --dark-grey: #181b1c;
+  --black: #111;
 }
 
-/**
- * Base Elements
- */
+/** Base Elements */
 
 * {
   margin: 0;
@@ -31,7 +31,7 @@ a,
 button {
   font-family: 'Ubuntu', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  color: var(--white);
+  color: var(--white-smoke);
 }
 
 h1 {
@@ -39,22 +39,19 @@ h1 {
 }
 
 body {
-  background: var(--black2);
+  background: var(--black);
 }
 
 button {
-  font-size: 100%;
   cursor: pointer;
 }
 
-/**
- * Button
- */
+/** Button */
 
 .button {
   padding: 8px 30px;
   text-decoration: none;
-  color: #fff;
+  color: var(--white);
   background: var(--blue);
   border: none;
   font-size: 20px;
@@ -72,20 +69,16 @@ button {
   box-shadow: #000 0 0 5px;
 }
 
-/**
- * Body Container
- */
+/** Body Container */
 
 .container {
   max-width: 1024px;
   min-height: 100vh;
-  background: #333;
+  background: var(--grey);
   margin: 0 auto;
 }
 
-/**
- * Top Navigation
- */
+/** Top Navigation */
 
 .menu {
   height: 4em;
@@ -95,7 +88,7 @@ button {
 .menu h1 {
   position: relative;
   padding: 5px 0 0 8px;
-  color: var(--white);
+  color: var(--white-smoke);
   font-size: 1.8em;
   font-style: italic;
 }
@@ -104,7 +97,7 @@ button {
   display: inline-block;
   text-decoration: none;
   padding: 0 10px;
-  color: #fff;
+  color: var(--white);
   font-size: 20px;
   font-weight: bold;
 }
@@ -119,7 +112,7 @@ button {
 }
 
 .forecasts .search-field-container button {
-  width: 325px;
+  width: 275px;
 }
 
 .forecasts label span {
@@ -132,7 +125,7 @@ button {
 .forecasts input {
   padding: 11px;
   font-size: 18px;
-  width: 300px;
+  width: 250px;
   margin: 10px auto;
   background-color: rgba(255, 255, 255, 0.75);
   border: solid 1px lightgray;
@@ -144,21 +137,17 @@ button {
   padding: 0 10px;
 }
 
-/**
- * Content Area
- */
+/** Content Area */
 
 .body {
   padding: 15px;
 }
 
-/**
- * Individual Forecasts
- */
+/** Individual Forecasts */
 
 .forecast {
   margin-top: 15px;
-  background-color: var(--black2);
+  background-color: var(--dark-grey);
   padding: 10px 25px;
   display: flex;
   justify-content: space-evenly;
@@ -167,8 +156,8 @@ button {
 }
 
 .forecast:hover {
-  background-color: var(--black1);
-  box-shadow: var(--white) 0 0 2px;
+  background-color: var(--grey);
+  box-shadow: var(--white-smoke) 0 0 2px;
 }
 
 .forecast .detail {
@@ -199,5 +188,7 @@ button {
   min-width: 80px;
   margin-inline-start: 10px;
   text-align: left;
-  font-size: 80%;
+  font-size: 70%;
+  padding: 0;
+  margin-inline-end: 0;
 }
