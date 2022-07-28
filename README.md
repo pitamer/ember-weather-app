@@ -1,56 +1,29 @@
-# weather-app
+# Ember Practice
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+### Weather Ember App
 
-## Prerequisites
+Please build a simple Ember application that runs locally and displays a 5 day weather forecast for a given location "location key".
 
-You will need the following things properly installed on your computer.
+You can use https://developer.accuweather.com/accuweather-forecast-api/apis/get/forecasts/v1/daily/5day/%7BlocationKey%7D or another free weather api if you prefer. You can find more working location keys here https://developer.accuweather.com/accuweather-locations-api/apis/get/locations/v1/cities/search
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://cli.emberjs.com/release/)
-* [Google Chrome](https://google.com/chrome/)
+_Please use the latest version of Ember.js_
 
-## Installation
+### Deliverable Details
 
-* `git clone <repository-url>` this repository
-* `cd weather-app`
-* `npm install`
+- should show a 5 day forecast with date, weather icon, high/low temp and weather description i.e. "snow or light rain"
+- should be able to update the location key with a text field and submit button
+- should show loading state when new location key is submitted
+- please add appropriate test coverage
 
-## Running / Development
+We're living in a world where an increasing amount of users are accessing the web from a mobile device. Please design your layout to be mobile friendly as well as accessible from a normal laptop resolution.
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+### Deliverables
 
-### Code Generators
+We're looking to see you can handle working within a JS framework - the fundamentals of designing data flow as well as component layout. However you decide to style is up to you - we're assessing your ability of CSS and markup, as well as best practices, not design skills.
 
-Make use of the many generators for code, try `ember help generate` for more details
+Please share the project that is runnable locally.
 
-### Running Tests
+### Sample Api Requests
 
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://cli.emberjs.com/release/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+- Forecast using location key: https://dataservice.accuweather.com/forecasts/v1/daily/5day/33?apikey={ADD_YOUR_API_KEY}
+- Icon for given weather abbreviation: https://github.com/Kuljeet-123/Weather-App/tree/master/src/icons/conditions
