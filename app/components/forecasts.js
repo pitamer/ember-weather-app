@@ -1,12 +1,14 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
+import { service } from '@ember/service';
 
 export default class ForecastsComponent extends Component {
-  @tracked inputQuery = '';
-  @tracked activeQuery = '';
+  @service router;
+
+  @tracked cityId = '';
 
   @action search() {
-    this.activeQuery = this.inputQuery;
+    this.router.transitionTo(`/${this.cityId}`);
   }
 }

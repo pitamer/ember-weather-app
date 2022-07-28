@@ -12,25 +12,25 @@
   <div class="detail temperature high">
     <div>Max.</div>
     <h2>
-      {{@forecast.Temperature.Maximum.Value}} °F
+      {{@forecast.minTemperature}} °F
     </h2>
   </div>
 
   <div class="detail temperature low">
     <div>Min.</div>
     <h2>
-      {{@forecast.Temperature.Minimum.Value}} °F
+      {{@forecast.maxTemperature}} °F
     </h2>
   </div>
 
   <div class="detail times-of-day">
     <div class="time-of-day day">
-      <img src={{@forecast.images.day}} />
-      <span>{{@forecast.Day.IconPhrase}}</span>
+      <img src={{@forecast.dayIconSrc}} />
+      <span>{{@forecast.dayIconPhrase}}</span>
     </div>
     <div class="time-of-day night">
-      <img src={{@forecast.images.night}} />
-      <span>{{@forecast.Night.IconPhrase}}</span>
+      <img src={{@forecast.nightIconSrc}} />
+      <span>{{@forecast.nightIconPhrase}}</span>
     </div>
   </div>
 

@@ -1,8 +1,8 @@
 <div class="forecasts">
   <div class="search-field-container">
     <label>
-      <span>Where would you like to search?</span>
-      <Input @value={{this.inputQuery}} class="light" />
+      <span>Enter a location ID</span>
+      <Input @value={{this.cityId}} class="light" />
     </label>
 
     <button type="button" class="button" {{on "click" this.search}}>

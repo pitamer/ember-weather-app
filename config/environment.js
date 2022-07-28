@@ -43,5 +43,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.ACCUWEATHER_ACCESS_TOKEN = 'rBbqiKCl8CY5Qksc1epB8EIbATGE6UGG';
+
   return ENV;
 };
